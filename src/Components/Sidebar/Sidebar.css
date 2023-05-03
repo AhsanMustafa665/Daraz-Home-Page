@@ -1,0 +1,58 @@
+ul > li {
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+}
+ul > li:hover {
+  color: #7580a1;
+}
+ul > li:hover > p {
+  display: inline;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  margin-left: 168px;
+  background-color: #f1f5f9;
+  width: 176px;
+  margin-top: -42px;
+}
+.topCls {
+  margin-top: -72px;
+}
+nav > ul > li:hover > ul {
+  display: block;
+}
+.dropdown > li:hover > ul {
+  display: block;
+}
+.dropdown > li {
+  position: relative;
+  z-index: 1;
+  font-weight: 400;
+}
+.dropdown2 {
+  display: none;
+  position: absolute;
+  z-index: 3;
+  margin-left: 168px;
+  background-color: #f1f5f9;
+  width: 176px;
+  margin-top: -42px;
+}
+.d {
+  margin-top: -102px;
+}
+.d2 {
+  margin-top: -132px;
+}
+.d3 {
+  margin-top: -162px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav > .fff > li {
+    background-color: white !important;
+  }
+}

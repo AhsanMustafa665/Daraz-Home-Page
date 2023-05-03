@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Catagories from "./Components/Catagories/Catagories";
+import CustomerCare from "./Components/CustomerCare/CustomerCare";
+import Feature from "./Components/Feature/Feature";
+import FlashSale from "./Components/FlashSale/FlashSale";
+import Footer from "./Components/Footer/Footer";
+import JustYou from "./Components/JustYou/JustYou";
+import MiniNav from "./Components/MiniNav/MiniNav";
+import Payment from "./Components/Payment/Payment";
+import Sidebar from "./Components/Sidebar/Sidebar";
+import Slider from "./Components/Slider/Slider";
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MiniNav></MiniNav>
+      <Slider></Slider>
+      <Sidebar></Sidebar>
+      <Feature></Feature>
+      <FlashSale></FlashSale>
+      <Catagories></Catagories>
+      <JustYou></JustYou>
+      <CustomerCare></CustomerCare>
+      <Payment></Payment>
+      <Footer></Footer>
     </div>
   );
 }

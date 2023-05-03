@@ -1,0 +1,22 @@
+.nav-items {
+  display: flex;
+  background-color: #ececec;
+  font-size: 12px;
+  justify-content: space-between;
+  padding: 2px 150px;
+  flex-wrap: wrap;
+}
+.nav-items > h4:hover {
+  color: #f57224;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.p {
+  position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  .ddd {
+    display: none;
+  }
+}

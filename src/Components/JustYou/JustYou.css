@@ -1,0 +1,14 @@
+.cen {
+  margin: 0 auto;
+  display: block;
+  width: 387px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #f85606;
+  border: 1px solid #f85606;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-bottom: 15px;
+}

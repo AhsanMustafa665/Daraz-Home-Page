@@ -1,0 +1,17 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.h {
+  display: none;
+}
+a :hover > p {
+  display: inline;
+  font-weight: 900;
+}
+.two {
+  transform: skewX(20deg);
+  animation: one 2s infinite;
+  animation-direction: alternate;
+}
