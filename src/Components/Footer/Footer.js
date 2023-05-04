@@ -1,20 +1,11 @@
 import React from "react";
 import { RiMessage2Fill } from "react-icons/ri";
 import "./Footer.css";
-import Swal from "sweetalert2";
+import { useState } from "react";
+import MessageModal from "../MessageModal/MessageModal";
+
 const Footer = () => {
-  const { value: text } = Swal.fire({
-    input: "textarea",
-    inputLabel: "Message",
-    inputPlaceholder: "Type your message here...",
-    inputAttributes: {
-      "aria-label": "Type your message here",
-    },
-    showCancelButton: true,
-  });
-  if (text) {
-    Swal.fire(text);
-  }
+  const [openMsg, setOpenMsg] = useState(null);
   return (
     <>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-x-16 overflow-hidden px-20 ">
@@ -36,7 +27,7 @@ const Footer = () => {
               largest online shopping site in Sri Lanka, Daraz is home to
               endless products featured in consumer electronics, home
               appliances, fashion and everything in between. Daraz is a global
-              online marketplace with ecommerce stores in Sri Lanka,{" "}
+              online marketplace with e-commerce stores in Sri Lanka,{" "}
               <a href="" className="hover:underline text-gray-500">
                 Pakistan
               </a>
@@ -623,11 +614,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <button className="bg-white drop-shadow-lg border border-gray-400 lg:w-40 w-24 lg:px-8 px-4 element one py-2 rounded-full flex lg:ml-[1150px] ml-96 mb-3 sticky bottom-1 :bg-red-500">
-        <p className="lg:text-xl text-xs font-semibold text-[#0D7FA2]">
+      <label
+        className="bg-white drop-shadow-lg border border-gray-400 lg:w-40 w-24 lg:px-8 px-4 element one py-2 rounded-full flex lg:ml-[1150px] ml-96 mb-3 sticky bottom-1 :bg-red-500 btn hover:bg-[#f85606] pb-16 hover:border hover:border-gray-500"
+        for="my-modal-6"
+        onClick={setOpenMsg}
+      >
+        {" "}
+        <p className="lg:text-xl text-xs font-semibold text-[#0D7FA2]  hover:text-white">
           <RiMessage2Fill className="text-2xl" /> Messages
         </p>
-      </button>
+      </label>
+      {openMsg && <MessageModal></MessageModal>}
     </>
   );
 };
