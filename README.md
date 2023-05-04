@@ -1,4 +1,4 @@
-# Assignment lucky one - ornaments
+# Daraz Home Page
 
 <a href="https://daraz-landing-page.netlify.app/">Live site here</a>
 
