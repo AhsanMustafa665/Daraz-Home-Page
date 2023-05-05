@@ -1,5 +1,6 @@
 import React from "react";
 import "./CustomerCare.css";
+
 const CustomerCare = () => {
   return (
     <div className="bg-[#2e2e54] text-white px-20 pb-7 customer-care-menu">

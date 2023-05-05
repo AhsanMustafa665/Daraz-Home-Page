@@ -12,3 +12,11 @@
   cursor: pointer;
   margin-bottom: 15px;
 }
+@media only screen and (max-width: 720px) {
+  .cen {
+    width: 100px;
+    height: 30px;
+    margin-left: -1px;
+    padding: 0 10px;
+  }
+}

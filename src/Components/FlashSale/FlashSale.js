@@ -11,7 +11,7 @@ const FlashSale = () => {
   }, []);
   return (
     <div className="mx-20">
-      <h1 className="text-gray-600 text-2xl mb-3">FlashSale</h1>
+      <h1 className="text-gray-600 lg:text-2xl text-xl mb-3">FlashSale</h1>
       <div className="bg-white block lg:flex justify-between items-center shadow-sm mb-4 sss">
         <div className="flex items-center">
           <p className="text-[#f57224] font-semibold text-[14px] px-4 lg:mb-0 mb-5">
@@ -29,7 +29,7 @@ const FlashSale = () => {
           SHOP MORE
         </a>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-6 mt-[-14px] lg:bg-white bg-[#f5f5f5] mb-6 pb-4 ">
+      <div className="grid md:grid-cols-2 lg:grid-cols-6 mt-[-14px] lg:bg-white bg-[#f5f5f5] mb-6 pb-4">
         {products.map((FlProduct) => (
           <FlashProduct key={FlProduct.id} FlProduct={FlProduct}></FlashProduct>
         ))}

@@ -32,3 +32,8 @@
 .swiper-pagination-bullet-active {
   background-color: white !important;
 }
+@media only screen and (max-width: 720px) {
+  .swiper-slide img {
+    width: 80%;
+  }
+}

@@ -3,3 +3,8 @@
     display: none;
   }
 }
+@media only screen and (max-width: 720px) {
+  .customer-care-menu {
+    display: none;
+  }
+}

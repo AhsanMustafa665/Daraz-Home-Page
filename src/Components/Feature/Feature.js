@@ -4,7 +4,7 @@ const Feature = () => {
   return (
     <div className="mt-10 text-center">
       <img
-        className="center px-4 pt-8"
+        className="center px-4 pt-8 lg:w-[1199px] w-[280px]"
         src="https://scontent.fcgp13-1.fna.fbcdn.net/v/t39.30808-6/342364146_250839930751837_7160843498781247350_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGZdComxjpvcrYUTxoswR9RrWwJIuz1RlatbAki7PVGVo7hH9SPeAAxOpIObVWaguT5UYZRhcHl7NaMR0wJs-EX&_nc_ohc=VTBz4jzWHFAAX-uNOgq&_nc_ht=scontent.fcgp13-1.fna&oh=00_AfBw1mz6BFCumQX1s8jQ5MUcWGx-lW_mj7lJVpCxKF9wHg&oe=6457D975"
         alt=""
       />
@@ -12,7 +12,7 @@ const Feature = () => {
         Shop Now
       </button>
 
-      <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-4 pr-24 pl-16 mt-6 mb-5 lg:ml-0 ml-16">
+      <div className="grid md:grid-cols-3 lg:grid-cols-5 md:grid-cols-1 gap-4 pr-24 lg:pl-16 pl-8 mt-6 mb-5 ">
         <a
           href=""
           className="flex items-center bg-[#f0efef] w-60 rounded-full hover:shadow-md"

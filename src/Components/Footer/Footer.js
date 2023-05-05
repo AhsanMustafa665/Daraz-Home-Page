@@ -8,8 +8,8 @@ const Footer = () => {
   const [openMsg, setOpenMsg] = useState(null);
   return (
     <>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-x-16 overflow-hidden px-20 ">
-        <div>
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-x-16 overflow-hidden lg:px-20 px-10 ">
+        <div className="lg:w-[250px] w-52">
           <p className="text-gray-700 font-[500]">
             Online Shopping In Sri Lanka with Free Home Delivery – Daraz.lk{" "}
             <br /> <br />
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <div>
+          <div className="lg:w-[250px] w-52">
             <div className="leading-5">
               <small className="text-gray-500">
                 Our supply and logistic service will ensure on-time delivery of
@@ -213,7 +213,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="lg:w-[250px] w-52">
           <p className="text-gray-700 font-[500]">Top Categories & Brands</p>
           <p className="text-[12px] mt-2">
             <a href="" className="hover:underline">
@@ -441,7 +441,7 @@ const Footer = () => {
             </small>
           </div>
         </div>
-        <div>
+        <div className="lg:w-[250px] w-52">
           <p className="text-[12px] mt-2">
             <a href="" className="hover:underline">
               STORAGE DEVICES
@@ -615,13 +615,13 @@ const Footer = () => {
         </div>
       </div>
       <label
-        className="bg-white drop-shadow-lg border border-gray-400 lg:w-40 w-24 lg:px-8 px-4 element one py-2 rounded-full flex lg:ml-[1150px] ml-96 mb-3 sticky bottom-1 :bg-red-500 btn hover:bg-[#f85606] pb-16 hover:border hover:border-gray-500"
+        className="bg-white drop-shadow-lg border border-gray-400 lg:w-40 w-16 lg:px-8 px-10 element one py-2 rounded-full flex lg:ml-[1150px] ml-44 mb-3 sticky bottom-1 :bg-red-500 btn hover:bg-[#f85606] pb-16 hover:border hover:border-gray-500"
         for="my-modal-6"
         onClick={setOpenMsg}
       >
         {" "}
-        <p className="lg:text-xl text-xs font-semibold text-[#0D7FA2]  hover:text-white">
-          <RiMessage2Fill className="text-2xl" /> Messages
+        <p className="lg:text-xl text-xs font-semibold text-[#0D7FA2] hover:text-white">
+          <RiMessage2Fill className="lg:text-2xl text-xs" /> Messages
         </p>
       </label>
       {openMsg && <MessageModal></MessageModal>}
