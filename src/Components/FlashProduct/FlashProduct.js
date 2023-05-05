@@ -6,10 +6,10 @@ const FlashProduct = (props) => {
     <div>
       <div
         style={{ lineHeight: "1" }}
-        className="bg-white border border-white hover:border hover:border-gray-200 rounded-sm lg:p-2 p-3 hover:drop-shadow-md lg:w-[180px] w-36 lg:mt-0 mt-5"
+        className="bg-white border border-white hover:border hover:border-gray-200 rounded-sm lg:p-2 p-3 hover:drop-shadow-md lg:w-[180px] w-48 lg:mt-0 mt-5"
       >
         <a href="#">
-          <img className="lg:w-[180px] w-20" src={img} alt="" />
+          <img className="lg:w-[180px] w-28 lg:p-0 p-2" src={img} alt="" />
         </a>
         <div>
           <a href="#">

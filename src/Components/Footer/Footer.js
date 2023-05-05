@@ -615,7 +615,7 @@ const Footer = () => {
         </div>
       </div>
       <label
-        className="bg-white drop-shadow-lg border border-gray-400 lg:w-40 w-16 lg:px-8 px-10 element one py-2 rounded-full flex lg:ml-[1150px] ml-44 mb-3 sticky bottom-1 :bg-red-500 btn hover:bg-[#f85606] pb-16 hover:border hover:border-gray-500"
+        className="bg-white drop-shadow-lg border border-gray-400 lg:w-40 w-16 lg:px-8 px-10 element one py-2 rounded-full flex lg:ml-[1150px] ml-44 mb-3 sticky bottom-1 :bg-red-500 btn hover:bg-[#f85606] pb-16 hover:border hover:border-gray-500 fff"
         for="my-modal-6"
         onClick={setOpenMsg}
       >

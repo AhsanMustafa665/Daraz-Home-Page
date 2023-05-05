@@ -11,7 +11,7 @@ const MessageModal = () => {
             <img
               className=""
               width={100}
-              src="https://o.remove.bg/downloads/00427eeb-bc3c-4c1b-95d8-bb46857e46f8/images-removebg-preview.png"
+              src="https://i.ibb.co/fp3wtVC/images-removebg-preview-1.png"
               alt=""
             />
           </p>

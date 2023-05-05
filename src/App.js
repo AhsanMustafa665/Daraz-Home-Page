@@ -10,7 +10,7 @@ import Payment from "./Components/Payment/Payment";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import Slider from "./Components/Slider/Slider";
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>;
-
+<script src="../path/to/flowbite/dist/flowbite.min.js"></script>;
 function App() {
   return (
     <div className="App">

@@ -10,7 +10,7 @@ const FlashSale = () => {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div className="mx-20">
+    <div className="lg:px-20 px-10">
       <h1 className="text-gray-600 lg:text-2xl text-xl mb-3">FlashSale</h1>
       <div className="bg-white block lg:flex justify-between items-center shadow-sm mb-4 sss">
         <div className="flex items-center">

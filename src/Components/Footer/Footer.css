@@ -14,3 +14,8 @@
     transform: rotateX(50deg);
   }
 }
+@media only screen and (max-width: 720px) {
+  .fff {
+    display: none;
+  }
+}
